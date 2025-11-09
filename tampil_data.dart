@@ -1,18 +1,7 @@
 import 'package:flutter/material.dart';
 
 class TampilDataScreen extends StatelessWidget {
-  final String nama;
-  final String nim;
-  final String tahunLahir;
-  final String umur;
-
-  const TampilDataScreen({
-    super.key,
-    required this.nama,
-    required this.nim,
-    required this.tahunLahir,
-    required this.umur,
-  });
+  const TampilDataScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -22,18 +11,25 @@ class TampilDataScreen extends StatelessWidget {
           'Perkenalan',
           style: TextStyle(
             fontWeight: FontWeight.bold,
-            color: Colors.white,
+            color: Colors.black,
           ),
         ),
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.amber,
         elevation: 0,
-        iconTheme: const IconThemeData(color: Colors.white),
+        iconTheme: const IconThemeData(color: Colors.black),
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(8.0),
-        child: Text(
-          'Nama saya $nama, NIM $nim, dan umur saya adalah $umur tahun',
-          style: const TextStyle(fontSize: 12),
+      body: const Padding(
+        padding: EdgeInsets.all(24.0),
+        child: Center(
+          child: Text(
+            'Halo, perkenalkan nama saya Yohana Des Ingrid Patricia Butarbutar, '
+            'dengan NIM H1D023031, dan umur saya 20 tahun.',
+            textAlign: TextAlign.justify,
+            style: TextStyle(
+              fontSize: 13,
+              height: 1.6,
+            ),
+          ),
         ),
       ),
     );
