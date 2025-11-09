@@ -12,7 +12,7 @@ Passing data dari `lib/ui/form_data.dart` (layar sumber/Form) ke `lib/ui/tampil_
 <img width="351" height="658" alt="image" src="https://github.com/user-attachments/assets/b27b6b51-79e0-4712-b8b6-bf902795d97a" />
 
 
-### TAampilan data
+### Tampilan data
 <img width="351" height="658" alt="image" src="https://github.com/user-attachments/assets/6c6b9879-f4bf-4615-b7cc-b8ebfb3baeaa" />
 
 ### 1. Pengambilan dan Pemrosesan Data di `form_data.dart`
