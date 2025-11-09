@@ -9,7 +9,8 @@
 Passing data dari `lib/ui/form_data.dart` (layar sumber/Form) ke `lib/ui/tampil_data.dart` (layar tujuan/Hasil) dilakukan saat navigasi menggunakan `Navigator.push`.
 
 ### Tampilan Form 
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/f5f3cbf5-38c0-4674-b8bf-e9b1283f21d8" />
+<img width="351" height="658" alt="image" src="https://github.com/user-attachments/assets/b27b6b51-79e0-4712-b8b6-bf902795d97a" />
+
 
 ### TAampilan data
 <img width="351" height="658" alt="image" src="https://github.com/user-attachments/assets/6c6b9879-f4bf-4615-b7cc-b8ebfb3baeaa" />
